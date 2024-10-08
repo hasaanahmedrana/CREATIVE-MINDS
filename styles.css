@@ -7,7 +7,7 @@
 
 html {
     margin: 0;
-    background-image: url('asset/bg1.jpeg'); /* Ensure the image path is correct */
+    background-image: url('assets/bg1.jpeg'); /* Ensure the image path is correct */
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
