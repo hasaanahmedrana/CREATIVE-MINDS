@@ -2,17 +2,6 @@
 
 ---
 
-## Table of Contents
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Git Workflow](#git-workflow)
-- [Common Git Challenges](#common-git-challenges)
-- [How to Run the Project](#how-to-run-the-project)
-- [How to Contribute](#how-to-contribute)
-
----
-
 ## Project Overview:
 
 The **Creative Minds** website serves as a one-stop solution for businesses and individuals seeking high-quality web applications, mobile applications, and cloud computing services. We leverage modern technologies such as **HTML**, **JavaScript**, and **CSS** to provide responsive and interactive user experiences across multiple platforms. Our goal is to offer seamless digital services that cater to the diverse needs of our clients.
