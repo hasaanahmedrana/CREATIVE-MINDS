@@ -1,6 +1,6 @@
 # Creative Minds Website
 
----
+
 ## Project Overview:
 
 ---
