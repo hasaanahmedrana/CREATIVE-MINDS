@@ -5,9 +5,16 @@
     color: white;
 }
 
+<<<<<<< HEAD
 html {ssss
     margin: 0;
     background-image: url('asset/bg1.jpeg'); /* Ensure the image path is correct */
+=======
+html {
+    margin: 0;
+    background-image: url('assets/bg1.jpeg'); /* Ensure the image path is correct */
+
+>>>>>>> 951d5566f220fc5fb12335e225989ff52f686706
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
