@@ -1,0 +1,260 @@
+* {
+    text-align: center;
+    margin: 0;
+    font-family: cursive;
+    color: white;
+}
+
+html {ssss
+    margin: 0;
+    background-image: url('asset/bg1.jpeg'); /* Ensure the image path is correct */
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Header for Home Section */
+.header {
+    margin: 5px;
+    color: rgb(253, 244, 244);
+    font-size: 25px;
+    font-family: serif;
+    padding: 10px 10px;
+}
+
+ul {
+    list-style-type: square;
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(209, 209, 217);
+    margin: 5px;
+}
+
+li {
+    display: inline-table;
+    margin-right: 20px;
+    color: white;
+}
+
+a {
+    color: black;
+    text-align: center;
+    background-color: rgb(209, 209, 217);
+    margin: 0;
+    font-size: 17px;
+    padding-inline: 15px;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Home Section */
+h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: overline 1px dotted;
+    text-shadow: 3px 3px 3px rgb(43, 180, 146);
+}
+
+.flex-container-home {
+    display: flex;
+    justify-content: space-around;
+    background-color: hsla(190, 82%, 74%, 0.315);
+    color: black;
+    padding: 20px;
+    flex-wrap: nowrap; /* Prevent wrapping in the Home section */
+}
+
+.flex-container-home > div {
+    background-color: hsla(0, 0%, 4%, 0.543);
+    margin: 10px;
+    font-size: 18px;
+    width: 30%; /* Set appropriate width for Home */
+    padding: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Services Section */
+.flex-container-services {
+    display: flex;
+    background-color: hsla(190, 82%, 74%, 0.315);
+    color: black;
+    justify-content: space-around;
+    margin-top: 15px; /* Further reduced margin-top */
+    padding-bottom: 10px; /* Further reduced padding */
+    padding-top: 10px; /* Further reduced padding */
+    flex-wrap: wrap; /* Allow wrapping for Services */
+}
+
+.flex-container-services > div {
+    background-color: hsla(0, 0%, 4%, 0.543);
+    margin: 5px; /* Reduced margin */
+    font-size: 18px;
+    width: 30%; /* Keep width as is */
+    padding: 8px; /* Further reduced padding */
+}
+
+/* Flex for Services with Image */
+.flex-container-services > .image-block {
+    width: 48%; /* Wider space for image blocks */
+}
+
+.flex-container-services img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Flex for the second block */
+.flex-container2 {
+    display: flex;
+    background-color: hsla(0, 13%, 86%, 0.393);
+    color: rgb(255, 248, 248);
+    justify-content: space-around;
+    margin-top: 15px; /* Further reduced margin-top */
+    padding-bottom: 10px; /* Further reduced padding */
+    padding-top: 10px; /* Further reduced padding */
+    flex-wrap: wrap;
+}
+
+.flex-container2 > div {
+    color: white;
+    background-color: hsla(0, 0%, 9%, 0.4);
+    margin: 5px; /* Reduced margin */
+    font-size: 15px;
+    padding: 10px; /* Further reduced padding */
+    width: 48%; /* Keep width as is */
+    line-height: 1.4; /* Optional: reduce line height to decrease block height */
+}
+
+/* Portfolio Section */
+h1 {
+    color: rgb(245, 236, 236);
+    text-decoration: 1px overline dotted;
+    padding: 10px 20px 20px 20px;
+    font-size: 30px; /* Unified font size */
+    text-shadow: 3px 3px 3px rgb(43, 180, 146);
+    margin-top: 30px;
+}
+
+header {
+    background-color: rgb(209, 209, 217);
+    padding: 15px 15px 15px 15px;
+}
+
+.flex-container {
+    display: flex;
+    background-color: hsla(0, 3%, 7%, 0.4);
+    color: rgb(255, 248, 248);
+    justify-content: space-around;
+    margin-top: 30px;
+    padding-bottom: 25px; /* Unified padding */
+    padding-top: 5px; /* Unified padding */
+    width: 100%;
+}
+
+.flex-container > div {
+    color: rgb(21, 20, 20);
+    background-color: hsla(0, 24%, 94%, 0.662);
+    margin: 10px;
+    font-size: 15px;
+    padding: 20px 20px 20px 20px;
+    width: 70%;
+    text-align: left;
+}
+
+h2 {
+    text-decoration: underline;
+    color: white; /* Retained white for subheadings */
+}
+
+h4 {
+    text-decoration: underline;
+    text-align: left;
+    color: white; /* Retained white for subheadings */
+}
+
+p {
+    color: white;
+}
+
+table {
+    justify-content: center;
+    margin: 2px;
+    background-color: black;
+    width: 100%;
+}
+
+table > tr > th {
+    padding: 20px;
+    padding-left: 20px;
+    width: 100%;
+}
+
+.flex-container3 {
+    display: flex;
+    background-color: hsla(0, 0%, 4%, 0.174);
+    color: rgb(255, 248, 248);
+    justify-content: space-around;
+    margin-top: 30px;
+    padding-bottom: 25px; /* Unified padding */
+    padding-top: 5px; /* Unified padding */
+    width: 100%;
+}
+
+.flex-container3 > div {
+    color: rgb(243, 235, 235);
+    background-color: hsla(175, 64%, 73%, 0.571);
+    margin: 10px;
+    font-size: 15px;
+    padding: 20px 20px 20px 20px;
+    width: 50%;
+    text-align: left;
+}
+
+.flex-container4 {
+    display: flex;
+    background-color: hsla(180, 79%, 50%, 0.174);
+    color: rgb(255, 248, 248);
+    justify-content: space-around;
+    margin-top: 30px;
+    padding-bottom: 25px; /* Unified padding */
+    padding-top: 5px; /* Unified padding */
+    width: 100%;
+}
+
+.flex-container4 > div {
+    color: rgb(243, 235, 235);
+    background-color: hsla(0, 5%, 88%, 0.571);
+    margin: 10px;
+    font-size: 15px;
+    padding: 20px 20px 20px 20px;
+    width: 50%;
+    text-align: left;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: #286870;
+    border-radius: 7px;
+}
+
+.button:hover {
+    background-color: #334048;
+}
+
+h5 {
+    color: black;
+}
